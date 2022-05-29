@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube切版練習</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="top">
+            <div class="logo">
+                <a href="#" class="menu-logo"><i class="fa-solid fa-bars fa-2x" style="color: black;"></i></a>
+                <a href="./index.html"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png"></a>
+            </div>
+            <div class="search">
+                <input type="text" id="text" placeholder="搜尋" size="80">
+                <button id="searchbutton"><i class="fa-solid fa-magnifying-glass fa-2x"
+                        style="color: black;"></i></button>
+                <button id="mic"><i class="fa-solid fa-microphone fa-2x" style="color: black;"></i></button>
+            </div>
+            <div class="user">
+                <a href="#" id="grid"><i class="fa-solid fa-table-cells fa-2x" style="color: black;"></i></a>
+                <a href="#" id="settings"><i class="fa-solid fa-ellipsis-vertical fa-2x" style="color: black;"></i></a>
+                <button id="user"><i class="fa-solid fa-user fa-2x"></i>&nbsp&nbsp登入</button>
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="menu-list">
+                <ul class="list-logo">
+                    <li><a href="./index.html" style="text-decoration: none;color: rgba(0,0,0,0.6);"><i
+                                class="fa-solid fa-house"></i>&nbsp;首頁</a></li>
+                    <li><i class="fa-solid fa-compass"></i>&nbsp;探索</li>
+                    <li><i class="fa-solid fa-bolt"></i>&nbsp;Shorts</li>
+                    <li><i class="fa-brands fa-youtube-square"></i>&nbsp;訂閱內容</li>
+                </ul>
+                <hr>
+                <ul class="list-logo">
+                    <li><i class="fa-solid fa-circle-play"></i>&nbsp;媒體庫</li>
+                    <li><i class="fa-solid fa-clock-rotate-left"></i>&nbsp;觀看記錄</li>
+                </ul>
+                <hr>
+                <ul class="list-logo">
+                    <p>登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</p>
+                    <li><button class="login-person"><i class="fa-regular fa-circle-user"></i>登入</button></li>
+                </ul>
+                <hr>
+                <ul class="list-logo">
+                    <p>YOUTUBE 精選</p>
+                    <br>
+                    <li><i class="fa-solid fa-music"></i>&nbsp;音樂</li>
+                    <li><i class="fa-solid fa-trophy"></i>&nbsp;體育</li>
+                    <li><i class="fa-solid fa-gamepad"></i>&nbsp;遊戲</li>
+                    <li><i class="fa-solid fa-clapperboard"></i>&nbsp;電影</li>
+                    <li><i class="fa-solid fa-newspaper"></i>&nbsp;新聞</li>
+                    <li><i class="fa-solid fa-podcast"></i>&nbsp;直播</li>
+                    <li><i class="fa-solid fa-film"></i>&nbsp;360 度影片</li>
+                </ul>
+                <hr>
+                <ul class="list-logo">
+                    <li><i class="fa-solid fa-circle-plus"></i>&nbsp;瀏覽頻道</a></li>
+                </ul>
+                <hr>
+                <ul class="list-logo">
+                    <p>更多 YOUTUBE 功能</p>
+                    <br>
+                    <li><i class="fa-brands fa-youtube-square"></i>&nbsp;YouTube Premium</li>
+                    <li><i class="fa-solid fa-podcast"></i>&nbsp;直播</li>
+                </ul>
+                <hr>
+                <ul class="list-logo">
+                    <li><i class="fa-solid fa-gear"></i>&nbsp;設定</li>
+                    <li><i class="fa-solid fa-flag"></i>&nbsp;檢舉紀錄</li>
+                    <li><i class="fa-solid fa-circle-question"></i>&nbsp;說明</li>
+                    <li><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;提供意見</li>
+                </ul>
+                <hr>
+                <div style="font-size: 1.1rem; margin: auto;padding: 0;font-weight: bolder;color: rgba(0,0,0,0.7);">
+                    <br>
+                    <br>
+                    簡介&nbsp;媒體&nbsp;版權&nbsp;與我們聯絡<br>
+                    創作者&nbsp;廣告&nbsp;開發人員<br><br>
+                    條款&nbsp;隱私權&nbsp;政策與安全性<br>
+                    YouTube&nbsp;運作方式&nbsp;測試新功能
+                </div>
+                <br>
+                <p style="font-size: 1rem; margin: auto;padding: 0;color: rgba(0,0,0,0.6);">
+                    ©&nbsp;2022&nbsp;Google&nbsp;LLC</p>
+            </div>
+        </div>
+        <div id="all">
+            <input type="button" value="全部">
+            <input type="button" value="音樂">
+            <input type="button" value="動畫">
+            <input type="button" value="直播中">
+            <input type="button" value="烹飪節目">
+            <input type="button" value="觀光">
+            <input type="button" value="手工藝">
+            <input type="button" value="烹飪">
+            <input type="button" value="視覺藝術">
+            <input type="button" value="寵物">
+            <input type="button" value="動作冒險">
+            <input type="button" value="最新上傳">
+        </div>
+        <div id="video-list">
+            <a href="https://www.youtube.com/watch?v=N1joAc0UlV8">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/N1joAc0UlV8/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">十分鐘搞懂21世紀的辱華標準</p>
+                    <a href="https://www.youtube.com/channel/UCjGBF7OQXzgJFDwrbzxtDrQ">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLQwylEygVhUWtOY7VlwWbKALagmilmEMcTqB0G59w=s480-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">蒟蒻講幹話</p>
+                    </a>
+                    <p class="see">觀看次數：214,085次</p>
+                    <p class="date">2022年1月1日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=4_nSVhyfLmI">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/4_nSVhyfLmI/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 1.4rem; margin-top: 1%;">統神&國動 - 你媽在武漢等你 你媽確診 你媽剛死</p>
+                    <a href="https://www.youtube.com/channel/UCrBOOPf_ltBCLQrrfsyAbfQ">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLRR33y36cONSlx1iEMQWiq9QXniFf_jnlNZc6xLBw=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">飯後澡</p>
+                    </a>
+                    <p class="see">觀看次數：154,851次次</p>
+                    <p class="date">2020年2月22日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=mPO059QBcHA">
+                <div class="video">
+                    <img src="https://i3.ytimg.com/vi/mPO059QBcHA/hqdefault.jpg" class="video-img"alt="">
+                    <p class="title">海綿寶寶阿拉花瓜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <a href="https://www.youtube.com/channel/UCVvwtF4m1QddvUygg1-gTQg">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLQOpFXbDIRGY9r3UQAStW9_Pb9wjVe1GutKmw=s480-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">BasiL羅勒葉</p>
+                    </a>
+                    <p class="see">觀看次數：12,172次</p>
+                    <p class="date">2017年6月26日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=H0FRzCSnKG8">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/H0FRzCSnKG8/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 15.5px;">【東方Progressive Metal／Djent】 フォールオブフォール ～ The Door Into Summer 「Demetori」</p>
+                    <a href="https://www.youtube.com/channel/UCmGMR_bG6xx9AAiPbxTr_RQ">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLRIwtdnQZuwoRqvOPf41-MBBzwu1pLOD4JYO7lu=s480-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">Phoenix Kappashiro</p>
+                    </a>
+                    <p class="see">觀看次數：243,516次</p>
+                    <p class="date">2017年1月14日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=GO42mz3b5Lk">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/GO42mz3b5Lk/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 15px;">Godzilla vs. Kong - Godzilla vs. MechaGodzilla Fight Scene</p>
+                    <a href="https://www.youtube.com/channel/UCaCi6y7plHqhCUfnKsP7LrQ">
+                        <img src="https://yt3.ggpht.com/zTzglJdzkyQoRo0RsUWqiKKLJY7lJ2q4-xS5mGFXKo0V5-Ut3UJnNuHkkKewrtm53SNB01jY=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">MONSTERVERSE - Greatest Scenes</p>
+                    </a>
+                    <p class="see">觀看次數：1,048,821次</p>
+                    <p class="date">2021年7月19日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=QUuzIjIcUws">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/QUuzIjIcUws/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">土匪亡靈合唱團 - 前衛屁孩</p>
+                    <a href="https://www.youtube.com/channel/UC6IfcKc3plIYJDcVr_tjWYQ">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLSYaFp0h-v9z5ub40aZqQS8_4ehx6dWrOzRqA=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">Shuo Yang</p>
+                    </a>
+                    <p class="see">觀看次數：450,089次</p>
+                    <p class="date">2012年6月14日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=2XK23KGM-eA">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/2XK23KGM-eA/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size:15.5px; margin-top: 5%;">映画『シン・ウルトラマン』予告【2022年5月13日（金）公開】</p>
+                    <a href="https://www.youtube.com/channel/UCTDMT3aL30noTVFgNPA9XtQ">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLSH7oRB0nwFP2XfBqUExNFNY_D9XCUBTvoEdYdU1g=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">東宝MOVIEチャンネル</p>
+                    </a>
+                    <p class="see">觀看次數：2,677,831次</p>
+                    <p class="date">2022年4月18日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=wT2H68kEmi8">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/wT2H68kEmi8/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 15px;" >The Rumbling arrives on Marley - Eren Founding Titan | Attack on Titan Season 4 Part 2 EP 12 FINAL</p>
+                    <a href="https://www.youtube.com/channel/UC3wWgmG1Qi03IrFtjdcpIMw">
+                        <img src="https://yt3.ggpht.com/-b9Yuv8RCIVUvPZeo6rciwm53ljQDOPzJciKhnL2C6xKdFY1lUjaFdd4YQRHCunacCfOnwRsHg=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">AnimeSelect</p>
+                    </a>
+                    <p class="see">觀看次數：853,089次</p>
+                    <p class="date">2022年4月4日</p>
+                </div>
+            </a>
+            <hr>
+            &nbsp;
+            <h1>音樂</h1>
+            <a href="https://www.youtube.com/watch?v=-7hV8sXrA0E">
+                <div class="video" style="bottom:3%;">
+                    <img src="https://img.youtube.com/vi/-7hV8sXrA0E/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">zoon politikon</p>
+                    <a href="https://www.youtube.com/channel/UCty-AHEQn5dkYr2oq6fd4yw">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLRm8mC5Nhx4BcIqwwCSjlbvXzn7wbeYVUadJsWI=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">yanaginagi official</p>
+                    </a>
+                    <p class="see">觀看次數：19,083次</p>
+                    <p class="date">2019年10月10日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=qqK1FrO3BdM">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/qqK1FrO3BdM/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">Slipknot - People = Shit (Audio)</p>
+                    <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+                        <img src="https://yt3.ggpht.com/IF0w3XU_gKlyrypAAOY1U2RTRy1R3dfZwJgYJCkZLDi61THQ4n1ur9nTdne2jRSY-5weqGbOnA=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">Slipknot</p>
+                    </a>
+                    <p class="see">觀看次數：31,462,322次</p>
+                    <p class="date">2014年11月13日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=Hh9yZWeTmVM">
+                <div class="video" style="top:0.5%;">
+                    <img src="https://img.youtube.com/vi/Hh9yZWeTmVM/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 18px;">ONE OK ROCK - The Beginning [Official Music Video]</p>
+                    <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLQCMSq8Crhige2cGo5DEct77MV4eAi5r0niWiWLBA=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">ONE OK ROCK</p>
+                    </a>
+                    <p class="see">觀看次數：191,087,062次</p>
+                    <p class="date">2012年8月15日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=zGh0g14ZJ8I">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/zGh0g14ZJ8I/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">[Demetori] 彼岸帰航 ～ View of The River Styx</p>
+                    <a href="https://www.youtube.com/channel/UCQMDIc0cxktt3HHTSg7cZ-A">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLQtRJuAp482qBubXsTgydZzc_tUlPBpeK63no0E=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">plxtreme</p>
+                    </a>
+                    <p class="see">觀看次數：104,252次</p>
+                    <p class="date">2011年2月21日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=5t5zJPB7GL0">
+                <div class="video" style="bottom: 3%;">
+                    <img src="https://img.youtube.com/vi/5t5zJPB7GL0/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">Release My Soul</p>
+                    <a href="https://www.youtube.com/channel/UCbJM_Y06iuUOl3hVPqYcvng">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLQCFrM1N1lK0QotUCeZP_7dZG3k5o6f5xBwqEs2tQ=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">澤野弘之 / SawanoHiroyuki[nZk]</p>
+                    </a>
+                    <p class="see">觀看次數：699,395次</p>
+                    <p class="date">2021年2月11日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=kXYiU_JCYtU">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/kXYiU_JCYtU/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title">Numb [Official Music Video] - Linkin Park</p>
+                    <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLTP3cbFb1DZb6KospraOxmO3xSGdl5la19iQi0ynZQ=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">Linkin Park</p>
+                    </a>
+                    <p class="see">觀看次數：1,784,973,709次</p>
+                    <p class="date">2007年3月5日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=r1XE8ON8fos">
+                <div class="video">
+                    <img src="https://img.youtube.com/vi/r1XE8ON8fos/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 15px;">"Red Swan" (Attack on Titan anime theme) - 進撃の巨人 Official Lyric Video YOSHIKI feat. Hyde</p>
+                    <a href="https://www.youtube.com/channel/UCaZK0kfr_sKxmLNoP2g9OWw">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLTzBqNMRIZ5CKAdXRhHVmeyKY9f5LY30Bz89uoFGy0=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">Yoshiki</p>
+                    </a>
+                    <p class="see">觀看次數：48,109,088次</p>
+                    <p class="date">2018年12月27日</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=w8dbDnkmW6A">
+                <div class="video" style="top: 1%;">
+                    <img src="https://img.youtube.com/vi/w8dbDnkmW6A/maxresdefault.jpg" class="video-img" alt="">
+                    <p class="title" style="font-size: 17px;">【東方】ピュアヒューリーズ ～ Vengeance is Mine「Demetori」</p>
+                    <a href="https://www.youtube.com/channel/UCLhmehsjp86fVEfVj5PiT7A">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLRvdZeD_OLU8F2ZDNNPAR0FIklrGnERiyaLXrp4=s880-c-k-c0x00ffffff-no-rj"
+                            class="video-head" alt=""><p class="ytr">Mukyuu FM</p>
+                    </a>
+                    <p class="see">觀看次數：198次</p>
+                    <p class="date">2021年11月10日</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
