@@ -1,0 +1,297 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "微軟正黑體";
+}
+
+.main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+#top {
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+
+.logo {
+    width: 15%;
+    height: 56px;
+    line-height: 56px;
+    float: left;
+    margin: 0 10px;
+    position: relative;
+}
+
+.menu-logo {
+    float: left;
+}
+
+.logo img {
+    width: 40%;
+    float: left;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search {
+    width: 70%;
+    height: 56px;
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+#text {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+#text:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#searchbutton {
+    width: 70px;
+    height: 46px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    right: 230px;
+}
+
+#searchbutton:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#mic {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    right: 160px;
+    border-radius: 50%;
+}
+
+#mic:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.user {
+    width: 15%;
+    height: 56px;
+    position: relative;
+    float: right;
+    margin-top: -55px;
+    left: 10px;
+}
+
+#grid {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#settings {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+#user {
+    width: 100px;
+    height: 46px;
+    position: absolute;
+    top: 8px;
+    left: 110px;
+    cursor: pointer;
+    background: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+#user:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#menu {
+    width: 15%;
+    height: calc(100% - 56px);
+    float: left;
+    padding: 0;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.menu-list {
+    width: 90%;
+    margin: auto;
+}
+
+.list-logo {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+
+.list-logo li {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 1rem;
+}
+
+.list-logo p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 1rem;
+}
+
+.list-logo button {
+    width: 100px;
+    height: 46px;
+    margin-left: 50px;
+    cursor: pointer;
+    background: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.list-logo button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#all {
+    width: 85%;
+    height: 56px;
+    padding: 0%;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 15%;
+    text-align: center;
+    line-height: 56px;
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#all input {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background: white;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.5rem;
+    font-weight: bolder;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#all input:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#all input:focus {
+    background: black;
+    color: white;
+}
+
+#video-list {
+    width: 85%;
+    height: calc(100% - 122px);
+    position: fixed;
+    margin-top: 66px;
+    margin-left: 15%;
+    overflow-y: scroll;
+}
+
+#video-list a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.6);
+}
+
+.video {
+    width: 20%;
+    height: 30%;
+    margin: 2%;
+    position: relative;
+    display: inline-block;
+}
+
+.video-img{
+    width: 100%;
+    height: 60%;
+    background-position: 0% 0%;
+}
+
+.video-head {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -5%;
+}
+
+.ytr {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-top: -5%;
+    margin-bottom: 3%;
+
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 20%;
+}
+
+.see {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 20%;
+    color:rgba(0, 0, 0, 0.6);
+}
+
+.date {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 20%;
+    color:rgba(0, 0, 0, 0.6);
+}
+
+#video-list hr {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    width: 93%;
+    margin-right: 5%;
+}
+
+#video-list h1 {
+    font-size: 2rem;
+    margin-left: 25px;
+    font-weight: 700;
+}
